@@ -1,0 +1,36 @@
+#game {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .x {
+    color: #f00;
+  }
+  
+  .o {
+    color: #00f;
+  }
+  
+  #reset-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: 0;
+    cursor: pointer;
+  }
+  
