@@ -42,6 +42,7 @@ function checkForWin() {
     ) {
       alert(`Player ${cell1.textContent} wins!`);
       highlightWin(cell1, cell2, cell3);
+      setTimout(resetGame(), 500);
       resetGame();
       return;
     }
@@ -54,10 +55,10 @@ function checkForWin() {
 }
 
 function highlightWin(cell1, cell2, cell3) {
-  cell1.style.backgroundColor = "yellow";
-  cell2.style.backgroundColor = "yellow";
-  cell3.style.backgroundColor = "yellow";
-}
+  cell1.style.backgroundColor = "red";
+  cell2.style.backgroundColor = "red";
+  cell3.style.backgroundColor = "red";
+  }
 
 function resetGame() {
   for (const cell of cells) {

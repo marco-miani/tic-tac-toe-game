@@ -1,6 +1,6 @@
 #game {
     width: 300px;
-    margin: 0 auto;
+    margin: 0 auto;    
   }
   
   table {
@@ -14,7 +14,15 @@
     vertical-align: middle;
     border: 1px solid #ccc;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 10px;
   }
   
   .x {
@@ -29,8 +37,9 @@
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #ccc;
+    background-color: #00f;
     border: 0;
     cursor: pointer;
+    color: #ffffff
   }
   
